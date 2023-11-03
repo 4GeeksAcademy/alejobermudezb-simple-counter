@@ -6,7 +6,7 @@ import React from "react";
 const Home = (num) => {
 	return (
 		<div id="mainBox">
-			<div className="box"><i className="fa-light fa-clock"></i></div>
+			<div className="box"><i className={"fa fa-clock"}></i></div>
 			<div className="box">{num.six}<h1></h1></div>
 			<div className="box">{num.five}</div>
 			<div className="box">{num.four}</div>
